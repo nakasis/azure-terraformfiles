@@ -15,7 +15,7 @@ resource "azurerm_storage_account" "mystorage" {
   }
 }
 
-resource "azurerm_kubernetes_cluster" "aks" {
+/* resource "azurerm_kubernetes_cluster" "aks" {
   name                = "njala-aks1"
   location            = azurerm_resource_group.rg.location
   resource_group_name = azurerm_resource_group.rg.name
@@ -34,4 +34,4 @@ resource "azurerm_kubernetes_cluster" "aks" {
   tags = {
     Environment = "demo"
   }
-}
+} */
